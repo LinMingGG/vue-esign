@@ -14,7 +14,7 @@
 3. 自定义画布尺寸（导出图尺寸），画笔粗细、颜色，画布背景色；
 4. 支持裁剪 （针对需求：有的签字需要裁剪掉四周空白）。
 5. 导出图片格式为 `base64`；
-6. [示例demo](https://jaimecheng.github.io/vue-esign/demo/)
+6. [示例demo](https://linminggg.github.io/vue-esign/demo/)
 
 ## 安装
 
