@@ -1,4 +1,4 @@
-# vue-esign
+# vue-esign 2
 
 > Canvas 手写签字 电子签名
 
