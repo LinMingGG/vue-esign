@@ -12,7 +12,7 @@ export default {
     },
     height: {
       type: Number,
-      default: 300
+      default: 400
     },
     lineWidth: {
       type: Number,
@@ -24,7 +24,7 @@ export default {
     },
     bgColor: {
       type: String,
-      default: ''
+      default: '#ffffff'
     },
     isCrop: {
       type: Boolean,
