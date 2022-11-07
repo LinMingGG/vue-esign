@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="esign">
     <div class="esign-box">
-      <vue-esign class="esignature" ref="esign" :width="800" :height="300" :isCrop="isCrop" :lineWidth="lineWidth" :lineColor="lineColor" :bgColor.sync="bgColor" />
+      <vue-esign class="esignature" ref="esign" :width="800" :height="400" :isCrop="isCrop" :lineWidth="lineWidth" :lineColor="lineColor" :bgColor.sync="bgColor" />
     </div>
     <div class="esigh-btns">
       <button @click="handleReset">清空画板</button> 
@@ -21,7 +21,7 @@ export default {
     return {
       lineWidth: 6,
       lineColor: '#000000',
-      bgColor: '',
+      bgColor: '#ffffff',
       resultImg: '',
       isCrop: false
     }
