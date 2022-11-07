@@ -63,7 +63,7 @@ export default {
       return this.$refs.canvas.getBoundingClientRect()
     },
     myBg () {
-      return this.bgColor ? this.bgColor : 'rgba(255, 255, 255, 0)'
+      return this.bgColor ? this.bgColor : 'rgba(255, 255, 255, 255)'
     }
   },
   watch: {
