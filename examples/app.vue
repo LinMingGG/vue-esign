@@ -21,9 +21,9 @@ export default {
     return {
       lineWidth: 6,
       lineColor: '#000000',
-      bgColor: '#ffffff',
+      bgColor: 'rgba(255,255,255,255)',
       resultImg: '',
-      isCrop: false
+      isCrop: ture
     }
   },
 
