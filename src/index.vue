@@ -24,7 +24,7 @@ export default {
     },
     bgColor: {
       type: String,
-      default: '#ffffff'
+      default: "rgba(255, 255, 255, 255)"
     },
     isCrop: {
       type: Boolean,
