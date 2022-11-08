@@ -251,7 +251,7 @@ export default {
       )
       if (this.isClearBgColor) {
         this.$emit('update:bgColor', '')
-        this.$refs.canvas.style.background = 'rgba(255, 255, 255, 255)'
+        this.$refs.canvas.style.background = 'rgba(255, 255, 255, 0)'
       }
       this.points = []
       this.hasDrew = false
