@@ -582,7 +582,7 @@
                     }
                 },
                 reset: function(t) {
-                    this.name === t && (this.canvasTxt.clearRect(0, 0, this.$refs.canvas.width, this.$refs.canvas.height), this.$emit("update:bgColor", ""), this.$refs.canvas.style.background = "rgba(255, 255, 255, 0)", this.points = [], this.hasDrew = !1, this.resultImg = "")
+                    this.name === t && (this.canvasTxt.clearRect(0, 0, this.$refs.canvas.width, this.$refs.canvas.height), this.$emit("update:bgColor", "#ffffff"), this.$refs.canvas.style.background = "rgba(255, 255, 255, 0)", this.points = [], this.hasDrew = !1, this.resultImg = "")
                 },
                 getCropArea: function(t) {
                     for (var e = this.$refs.canvas.width,
